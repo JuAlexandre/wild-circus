@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+
+    <!-- import style (no need to change) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- import font (no need to change) -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+        <h1>Wild Circus</h1>
+        <nav>
+          <ul>
+            <!-- OK - TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+            <li><a href="#performances" class="scrollTo">Performances</a></li>
+            <li><a href="#about_us" class="scrollTo">About Us</a></li>
+            <li><a href="#price" class="scrollTo">Prices</a></li>
+            <li><a href="#contact" class="scrollTo">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+          <!-- OK - TODO:  Ajoute des images à l'interieur des div qui possèdent la class "item" pour faire fonctionner le carousel. C'est à toi de trouver des images qui illustrent le mieux l'esprit wild.
+          Le carousel doit comprendre au moins 4 images -->
+          <div class="item"><img src="http://nsa39.casimages.com/img/2017/09/07/170907073940649312.png" alt="horses"/></div>
+          <div class="item"><img src="http://nsa39.casimages.com/img/2017/09/07/170907073940834651.png" alt="show"/></div>
+          <div class="item"><img src="http://nsa39.casimages.com/img/2017/09/07/170907073941186803.png" alt="circus light"/></div>
+          <div class="item"><img src="http://nsa39.casimages.com/img/2017/09/07/170907073941537590.png" alt="circus"/></div>
+        </div>
+      </header>
+
+      <section id="performance">
+        <h2>Performances</h2>
+        <!-- OK - TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li" -->
+        <ul>
+          <li>
+            <img src="https://wildcodeschool.fr/images/clown.png" alt="clown picture">
+            <h3>Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+          </li>
+          <li>
+            <img src="https://wildcodeschool.fr/images/magic_hat.png" alt="magic hat picture">
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+          </li>
+          <li>
+            <img src="https://wildcodeschool.fr/images/lion.png" alt="lion picture">
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+          </li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <section id="about_us">
+        <h2>About Us</h2>
+        <!-- OK - TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité tout en respectant la charte graphique du site déjà existant -->
+        <img src="http://nsa39.casimages.com/img/2017/09/07/170907063536394645.png" alt="clowns"/>
+        <p>
+          Created in the 1990s in England by the famous Mr Wild, the Wild Circus company now has no fewer than 200 people, including 75 artists, who strive to make you dream at every performance !
+          Clowns, jugglers and animals will make you vibrate with the sounds of enthralling music.
+        </p>
+      </section>
+
+      <hr>
+
+      <section id="price">
+        <h2>Prices</h2>
+        <!-- OK - TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                            |                                |
+        week-end et mercredi    |         |                            |                                |
+        -->
+        <table>
+          <tr>
+            <th></th>
+            <th>Adults</th>
+            <th>Child (-12 years old)</th>
+            <th>Groups (+10 people)</th>
+            <th>School</th>
+          </tr>
+          <tr>
+            <th>Week out of wednesday</th>
+            <td>18€</td>
+            <td>13€</td>
+            <td>8€</td>
+            <td>9€</td>
+          </tr>
+          <tr>
+            <th>Weekend and wednesday</th>
+            <td>20€</td>
+            <td>15€</td>
+            <td>10€</td>
+            <td>11€</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- OK - TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message.
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+        -->
+        <form>
+          <input type="text" id="input-name" placeholder="Name">
+          <input type="email" id="input-email" placeholder="Email address">
+          <input type="text" id="input-subject" placeholder="Subject">
+          <textarea name="message" type="text" id="input-message" placeholder="Please enter your message here ..."></textarea>
+          <input type="submit" value="Submit" id="input-submit">
+        </form>
+      </section>
+
+      <footer>
+        <!-- OK - TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+        -->
+        <p>
+          Wild Circus by <a href="https://www.linkedin.com/in/julienalexandre45/">Julien ALEXANDRE</a>, Wild Code School - 06/09/2017, <a href="https://wildcodeschool.fr">Wild Code School</a>
+        </p>
+      </footer>
+
+    </div>
+
+    <!-- import script for slider & scroll to (no need to change) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
