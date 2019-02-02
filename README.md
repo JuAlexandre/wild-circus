@@ -1,3 +1,20 @@
-Parcours candidat de la Wild Code School au 07 sept. 2017
+# wild-circus
 
-Afin de valider l'exercice il faut récupérer le code mis à disposition sur CodePen et remplir les consignes dans les blocs TODO.
+## Description
+
+Selection exercise for the Orléans Wild Code School (February 2018 session).
+
+## Instructions
+
+In order to validate the exercise, you must complete the instructions in the TODO blocks.
+
+## Installation
+
+Clone the repository and open the `index.html` file in your browser.
+```
+git clone https://github.com/JuAlexandre/wild-circus.git
+```
+
+## See the result
+
+https://jualexandre.github.io/wild-circus/
