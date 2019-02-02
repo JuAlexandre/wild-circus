@@ -15,7 +15,7 @@ body .container {
   width: 900px;
 }
 
-/* OK - TODO: Les titres et les items du menu doivent utiliser la police 'Amatic SC' */
+/* TODO: Titles and menu items must use the 'Amatic SC' font */
 
 h1 {
   font-size: 60px;
